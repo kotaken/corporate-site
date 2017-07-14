@@ -133,22 +133,22 @@ header {
   @media (min-width: 551px) {
     #service_area {
       padding-top: 30px; } }
-  #service_area .column {
+  #service_area .columns {
     color: #626262; }
-    #service_area .column .service_title {
+    #service_area .columns .service_title {
       font-size: 18px;
       font-size: 1.8rem;
       font-weight: bold;
       margin-top: 8px; }
-    #service_area .column p {
+    #service_area .columns p {
       font-size: 15px;
       font-size: 1.5rem;
       margin-top: 10px; }
     @media (min-width: 551px) {
-      #service_area .column .service_title {
+      #service_area .columns .service_title {
         font-size: 16px;
         font-size: 1.6rem; }
-      #service_area .column p {
+      #service_area .columns p {
         font-size: 13px;
         font-size: 1.3rem; } }
 
@@ -219,12 +219,15 @@ header {
       padding: 10px 10px 10px 20px;
       background-image: url(../images/news/side_arrow.png);
       background-size: 4px 8px; }
+      #contents #sidebar .pc_sidemenu li a {
+        color: #339fd1;
+        text-decoration: none; }
 
 #news_area {
   background-color: #eaf2f4; }
   @media (min-width: 551px) {
     #news_area .container {
-      padding: 0 10% 0 50px; } }
+      padding: 0 10% 50px 10%; } }
   #news_area .news_title {
     text-align: center;
     font-size: 26px;
@@ -311,7 +314,7 @@ footer {
           background-repeat: no-repeat;
           background-position: left center;
           display: inline-block;
-          float: right;
+          float: left;
           margin-right: 10px;
           font-size: 11px;
           font-size: 1.1rem;

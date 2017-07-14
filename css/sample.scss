@@ -223,7 +223,7 @@ header{
     
     }
     
-    .column{
+    .columns{
         color :#626262;
         
         .service_title{
@@ -342,6 +342,11 @@ header{
                 padding: 10px 10px 10px 20px;
                 background-image: url(../images/news/side_arrow.png);
                 background-size: 4px 8px;
+                
+                a{
+                    color: #339fd1;
+                    text-decoration: none;
+                }
             }
         }
         
@@ -358,7 +363,7 @@ header{
     
     @media(min-width: 551px){
         .container{
-            padding: 0 10% 0 50px;
+            padding: 0 10% 50px 10%;
         }
     }
     //min-width 551px
@@ -490,7 +495,7 @@ footer{
                 background-position: left center;
                 
                 display: inline-block;
-                float: right;
+                float: left;
                 
                 margin-right: 10px;
                 @include fontsize(11);
